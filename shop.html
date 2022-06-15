@@ -41,21 +41,55 @@
             <li><a></a>Средства ухода</li>
 
         </ul>
-        <form>
+        <form class="filter" method="get" action="">
             <fieldset>
                 <legend>Производители </legend>
-                <input type="checkbox" name="one" id="one1" /><label for="one1">Baxter of California</label><br>
-                <input type="checkbox" name="one" id="one2" /><label for="one2">Mr Natty</label><br>
-                <input type="checkbox" name="one" id="one3" /><label for="one3">Suavecito</label><br>
-                <input type="checkbox" name="one" id="one4" /><label for="one4">Malin+Goetz</label><br>
-                <input type="checkbox" name="one" id="one4" /><label for="one5">Murray’s</label><br>
-                <input type="checkbox" name="one" id="one5" /><label for="one6">American Crew</label>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="Baxter-of-California" id="filter-Baxter-of-California"
+                            checked><label for="filter-Baxter-of-California">Baxter of
+                            California</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="Mr-Natty" id="filter-Mr-Natty"><label for="filter-Mr-Natty">Mr
+                            Natty</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="Suavecit" id="filter-Suavecit" checked><label
+                            for="filter-Suavecit">Suavecito</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="Malin+Goetz" id="filter-Malin+Goetz"><label
+                            for="filter-Malin+Goetz">Malin+Goetz</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="Murray’s" id="filter-Murray’s"><label
+                            for="filter-Murray’s">Murray’s</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="American-Crew" id="filter-American Crew" checked><label
+                            for="filter-American Crew">American Crew</label>
+                    </li>
+                </ul>
             </fieldset>
             <fieldset>
                 <legend>Группы товаров</legend>
-                <input type="radio" id="radio1" /><label for="radio1">Бритвенные принадлежности</label><br>
-                <input type="radio" id="radio2" /><label for="radio2">Средства ухода</label><br>
-                <input type="radio" id="radio3" /><label for="radio3">Аксессуары</label>
+                <ul>
+                    <li>
+                        <input type="radio" name="Бритвенные-принадлежности"
+                            id="filter-Бритвенные-принадлежности"><label
+                            for="filter-Бритвенные-принадлежности">Бритвенные
+                            принадлежности</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="Средства-ухода" id="filter-Средства-ухода" checked><label
+                            for="filter-Средства-ухода">Средства ухода</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="Аксессуары" id="filter-Аксессуары"><label
+                            for="filter-Аксессуары">Аксессуары</label>
+                    </li>
+                </ul>
             </fieldset>
             <button type="submit">Показать</button>
         </form>
