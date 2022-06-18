@@ -96,29 +96,29 @@
                 </p>
                 <p>
                     Время паботы: пн—пт: С 10:00 ДО 22:00 <br>
-                    сб—вс: с 10:00 до 19:00
+                    сб—вс: с 10:00 до 19:00s
                 </p>
                 <a class="button" href="map.html">Как проехать</a>
                 <a class="button" href="contacts.html">Обратная связь</a>
             </section>
-            <section class="appoinment">
+            <section class="appointment">
                 <h2>Записаться</h2>
                 <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони
                 </p>
-                <form class="appoinment_item" action="https://echo.htmlacademy.ru" method="post">
-                    <p>
+                <form class="appointment_form" action="https://echo.htmlacademy.ru" method="post">
+                    <p class="appointment_item">
                         <label for="appointment-date">Дата</label>
                         <input id="appointment-date" type="date" name="date" value="2017-10-08">
                     </p>
-                    <p>
+                    <p class="appointment_item">
                         <label for="appointment-time">Время</label>
                         <input id="appointment-time" type="time" name="time" value="10:00">
                     </p>
-                    <p>
+                    <p class="appointment_item">
                         <label for="appointment-name">Ваше имя</label>
                         <input id="appointment-name" type="text" name="name" value="Борода">
                     </p>
-                    <p>
+                    <p class="appointment_item">
                         <label for="appointment-phone">Телефон</label>
                         <input id="appointment-phone" type="tel" name="phone" value="+7 123 456-78-90">
                     </p>
@@ -127,57 +127,60 @@
             </section>
         </div>
     </main>
-    <footer>
-        <p>Барбершоп "Бородинский" <br>
+    <footer class="main_footer">
+        <p class="footer_contacts">Барбершоп "Бородинский" <br>
             Адрес: г. Санкт-Петербург, б. Конюшенная, д. 19/8 <br>
             <a href="maps.html">Как нас найти?</a><br>
             телефон: +7 (495) 666-02-66
         </p>
-        <div>
-            <p>
+        <div class="footer_social">
+            <b>
                 Давайте дружить
-            </p>
+            </b>
             <ul>
-                <li><a href="#" aria-label="ВКонтакте">
+                <li><a class="social_button" href="#" aria-label="ВКонтакте">
                         <img src="img\vk.svg">
                     </a></li>
-                <li><a href="#" aria-label="Фейсбук">
+                <li><a class="social_button" href="#" aria-label="Фейсбук">
                         <img src="img\facebook.svg">
                     </a></li>
-                <li><a href="#" aria-label="Инстаграм">
+                <li><a class="social_button" href="#" aria-label="Инстаграм">
                         <img src="img\instagram.svg">
                     </a></li>
             </ul>
         </div>
-        <p>
+        <p class="footer_copyright">
             Разработано: <br>
-            <a href="https://htmlacademy.ru">HTML Academy</a>
+            <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
         </p>
     </footer>
-    <section>
+    <section class="modal modal_login">
         <h2>Личный кабинет</h2>
-        <p>Введите свой логин и пароль</p>
-        <form action="https://echo.htmlacademy.ru" method="post">
+        <p>Введите пожалуйста свой логин и пароль</p>
+        <form class="login_form" action="https://echo.htmlacademy.ru" method="post">
             <p>
                 <label for="user-login">Логин</label>
-                <input id="user-login" type="email" name="login" placeholder="email@example.com">
+                <input id="user-login" type="text" name="login" placeholder="email@example.com">
             </p>
             <p>
                 <label for="user-password">Пароль</label>
                 <input id="user-password" type="password" name="password" placeholder="........">
             </p>
-            <p>
-                <label for="login-password-info">Запомните меня</label>
-                <input id="login-password-info" type="checkbox" name="remember">
-                <a href="#">Я забыл пароль</a>
+            <p class="login_password_info">
+                <label class="login_checkbox">
+                    <input type="checkbox" name="remember" class="visually_hidden">
+                    <span class="checkbox_indicator"></span>
+                    Запомните меня
+                </label>
+                <a class="restore" href="#">Я забыл пароль</a>
             </p>
         </form>
         <button class="button" type="submit">Войти</button>
         <button class="button" type="button">Закрыть</button>
     </section>
-    <section>
+    <section class="modal modal_map">
         <h2>Как до нас добраться</h2>
-        <img src="#" alt="Адрес офиса компании"><br>
+        <img src="img\map.jpg" alt="Адрес офиса компании"><br>
         <button class="button" type="button">Закрыть</button>
     </section>
 </body>
