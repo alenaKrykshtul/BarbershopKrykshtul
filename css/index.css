@@ -15,6 +15,7 @@ body {
     background-repeat: no-repeat;
 }
 
+
 a{
 	text-decoration: none;
 }
@@ -35,12 +36,42 @@ a{
 	background-color: #663d15;
 }
 
+.main_header {
+	min-height: 72px;
+	margin-bottom: 60px;
+}
+
 .main_navigation {
 	font-size: 16px;
 	line-height: 20px;
 	color: #ffffff;
 	background-color: black;
+	min-height: 72px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	width: 100%;
+	margin-bottom: 60px;
 }
+.container{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.main_navigation .container{
+	display: flex;
+	justify-content: space-between;
+}
+.main_logo {
+	width: 371px;
+	height: 155px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+}
+
 
 .site_navigation,
 .user_navigation{
@@ -58,13 +89,40 @@ a{
 .user_navigation a:focus{
 	background-color: #242424;
 }
+.site_navigation{
+	width: 620px;
+	margin: 0px;
+	padding: 0px;
+	min-height: 72px;
+}
+
+.user_navigation{
+	margin: 0px;
+	padding: 0px;
+	min-height: 72px;
+}
+
+
+.features{
+	margin-bottom: 64px;
+}
 
 .features_list{
+	display: flex;
+	justify-content: space-between;
 	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	/*временно*/
+	min-height: 178px;
 }
 
 .feature_item{
 	text-align: center;
+	width: 292px;
+	/**/
+	min-height: 178px;
 }
 
 .feature_item h3{
@@ -75,9 +133,34 @@ a{
 .index_columns{
 	color: #000;
 	background-color: #f8f5f2;
-	background-image: url("../img/pattern_light.jpg");
+	background-image: url("/img/pattern_light.jpg");
 	background-position: 0px 0px;
 	background-repeat: repeat;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 36px;
+	padding: 56px 35px 50px 80px;
+	}
+	
+.news{
+	width: 465px;
+	/**/
+	min-height: 419px;
+}
+.gallery{
+	width: 467px;
+	/**/
+	min-height: 419px;
+}
+.contacts{
+	width: 465px;
+	/**/
+	min-height: 435px;
+}
+.appointment{
+	width: 467px;
+	/**/
+	min-width: 435px;
 }
 
 .index_columns h2{
@@ -112,18 +195,35 @@ a{
 .main_footer{
 	color: #ffffff;
 	background-color: #212121;
-	background-image: url("//img/pattern_dark.png");
+	background-image: url("/img/pattern_dark.png");
 	background-position: 0 0;
 	background-repeat: no-repeat;
+	margin-top: 65px;
+	min-height: 193px;
+	padding: 60px 0;
 }
-
+.main_footer .container{
+	display: flex;
+}
 .footer_contacts a:hover,
 .footer_contacts a:focus{
 	text-decoration: none;
 }
+.footer_contacts{
+    width: 309px;
+	margin: 0;
+	margin-right: 90px;
+	/**/
+	min-height: 100px;
+}
 
 .footer_social{
 	text-align: center;
+	width: 102px;
+	margin: 0;
+	
+	/**/
+	min-height: 100px;
 }
 
 .footer_social ul{
@@ -136,6 +236,11 @@ a{
 
 .footer_copyright{
 	text-align: center;
+	width: 140px;
+	margin: 0;
+	margin-left: auto;
+	/**/
+	min-height: 100px;
 }
 
 .footer_copyright .button:hover,

@@ -5,13 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Барбершоп "Бородинский"</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\normalize.css">
+    <link rel="stylesheet" href="css\item.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
+    <header class="main_header">
+        <nav class="main_navigation">
+            <ul class="site_navigation">
                 <li>
                     <a href="index.html">
                         <img src="img\logo.svg">
@@ -23,7 +28,7 @@
                 <li><a href="catalog.html">Магазин</a></li>
                 <li><a href="contacts.html">Контакты</a></li>
             </ul>
-            <ul>
+            <ul class="user_navigation">
                 <li>
                     <a href="login.html">
                         <img src="img\login.svg" alt="Вход">
@@ -35,13 +40,13 @@
     </header>
 
 </body>
-<main>
+<main class="container">
     <h1>набор для путешествий «Baxter of California»</h1>
     <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="catalog.html">Магазин</li>
-        <li><a href="shop.html">Средства ухода</a></li>
-        <li>Набор для путешествий «Baxter of California»</li>
+        <li><a class="pagination" href="index.html">Главная</a></li>
+        <li><a class="pagination" href="catalog.html">Магазин</a></li>
+        <li><a class="pagination" href="shop.html">Средства ухода</a></li>
+        <li><a class="pagination_set">Набор для путешествий «Baxter of California»></a></li>
     </ul>
     <section>
         <p><img src="img\kosmetika big.jpg" alt="Косметика фото "></p>
@@ -53,15 +58,16 @@
     </section>
     <div>
         <span>Есть в наличии</span>
-        <span>Артикул: dexter-ae</span>
+        <span class="pagination_set">Артикул: dexter-ae</span>
     </div>
     <section>
-        <p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что
+        <p>Travel Kit – <a href="#">необходимый аксессуар</a> во время любого путешествия. В аккуратной кожаной сумке
+            находится все, что
             нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий
             крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
         <div>
-            <span>2900</span>
-            <button type="submit">Купить</button>
+            <span class="pagination_block">2900</span>
+            <button class="button" type="submit">Купить</button>
         </div>
         <h2>В набор входят:</h2>
         <ul>
@@ -72,33 +78,33 @@
             <li>Удобная кожаная косметичка</li>
         </ul>
     </section>
-    <footer>
-        <p>Барбершоп "Бородинский" <br>
+    <footer class="main_footer">
+        <p class="footer_contacts">Барбершоп "Бородинский" <br>
             Адрес: г. Санкт-Петербург, б. Конюшенная, д. 19/8 <br>
             <a href="maps.html">Как нас найти?</a><br>
             телефон: +7 (495) 666-02-66
         </p>
-        <div>
+        <div class="footer_social">
             <p>
                 Давайте дружить
             </p>
             <ul>
-                <li><a href="#" aria-label="ВКонтакте">
+                <li><a class="social_button" href="#" aria-label="ВКонтакте">
                         <img src="img\vk.svg">
 
                     </a></li>
-                <li><a href="#" aria-label="Фейсбук">
+                <li><a class="social_button" href="#" aria-label="Фейсбук">
                         <img src="img\facebook.svg">
                     </a></li>
-                <li><a href="#" aria-label="Инстаграм">
+                <li><a class="social_button" href="#" aria-label="Инстаграм">
                         <img src="img\instagram.svg">
                     </a></li>
             </ul>
 
         </div>
-        <p>
+        <p class="footer_copyright">
             Разработано:
-            <a href="https://htmlacademy.ru">HTML Academy</a>
+            <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
         </p>
     </footer>
 </main>

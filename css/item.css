@@ -1,0 +1,145 @@
+.main_header{
+	min-height: 72px;
+	margin-bottom: 54px;
+}
+
+.main_navigation{
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+	background-color: black;
+	min-height: 72px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.main_navigation .container {
+	display: flex;
+	justify-content: space-between;
+}
+.site_navigation,
+.user_navigation {
+	list-style: none;
+}
+
+.site_navigation a,
+.user_navigation a {
+	color: #ffffff;
+}
+
+.site_navigation a:hover,
+.site_navigation a:focus,
+.user_navigation a:hover,
+.user_navigation a:focus {
+	background-color: #242424;
+}
+
+.site_navigation {
+	width: 620px;
+	margin: 0px;
+	padding: 0px;
+	min-height: 72px;
+}
+
+.user_navigation {
+	margin: 0px;
+	padding: 0px;
+	min-height: 72px;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+
+	background-color: #f6f3f0;
+	background-image: url("/img/background_item.jpg");
+	background-position: top center;
+	background-repeat: repeat;
+}
+
+a{
+	text-decoration: none;
+}
+
+.button {
+	font: inherit;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	text-transform: uppercase;
+	background-color: #000000;
+	border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+	background-color: #663d15;
+}
+
+.container{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main_footer {
+	color: #ffffff;
+	background-color: #212121;
+	background-image: url("//img/pattern_dark.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.footer_contacts a:hover,
+.footer_contacts a:focus {
+	text-decoration: none;
+}
+
+.footer_social {
+	text-align: center;
+}
+
+.footer_social ul {
+	list-style: none;
+}
+
+.social_button {
+	color: #ffffff;
+}
+
+.footer_copyright {
+	text-align: center;
+}
+
+.footer_copyright .button:hover,
+.footer_copyright .button:focus {
+	color: #000000;
+	background-color: #ffffff;
+}
+
