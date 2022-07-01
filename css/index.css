@@ -70,7 +70,7 @@ input[type="radio"].visually_hidden {
 	opacity: 0.5;
 	background-color: #000;
 }
-
+/*header*/
 
 .main_header {
 	min-height: 72px;
@@ -136,6 +136,7 @@ input[type="radio"].visually_hidden {
 	margin: 0px;
 	padding: 0px;
 	min-height: 72px;
+	
 }
 
 .user_navigation{
@@ -655,6 +656,6 @@ input[type="radio"].visually_hidden {
 	margin-top: -280px;
 	margin-left: -390px;
 	border: 7px solid white;
-	display: none;
+/*	display: none;*/
 		/*выключен*/
 }

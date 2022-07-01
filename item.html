@@ -16,44 +16,53 @@
 <body>
     <header class="main_header">
         <nav class="main_navigation">
-            <ul class="site_navigation">
-                <li>
-                    <a href="index.html">
-                        <img src="img\logo.svg">
-                    </a>
-                </li>
-                <li><a href="info.html">Информация</a></li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="price.html">Прайс-лист</a></li>
-                <li><a href="catalog.html">Магазин</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-            <ul class="user_navigation">
-                <li>
-                    <a href="login.html">
-                        <img src="img\login.svg" alt="Вход">
-                        Вход
-                    </a>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="site_navigation">
+                    <li>
+                        <a class="logo" href="index.html">
+                            <!--<img src="img\logo.svg" width="111px" height="24px" alt="logo">-->
+                        </a>
+                    </li>
+                    <li><a href="info.html">Информация</a></li>
+                    <li><a href="news.html">Новости</a></li>
+                    <li><a href="price.html">Прайс-лист</a></li>
+                    <li><a href="catalog.html">Магазин</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+                <ul class="user_navigation">
+                    <li>
+                        <a class="login_link" href="login.html">
+                            Вход
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
 </body>
 <main class="container">
     <h1>набор для путешествий «Baxter of California»</h1>
-    <ul>
-        <li><a class="pagination" href="index.html">Главная</a></li>
-        <li><a class="pagination" href="catalog.html">Магазин</a></li>
-        <li><a class="pagination" href="shop.html">Средства ухода</a></li>
-        <li><a class="pagination_set">Набор для путешествий «Baxter of California»></a></li>
+    <ul class="container_pagination">
+        <li><a class="pagination " href="index.html">
+                <h4>Главная</h4>
+            </a></li>
+        <li><a class="pagination" href="catalog.html">
+                <h4>Магазин</h4>
+            </a></li>
+        <li><a class="pagination" href="shop.html">
+                <h4>Средства ухода</h4>
+            </a></li>
+        <li><a class="pagination_set">
+                Набор для путешествий «Baxter of California»>
+            </a></li>
     </ul>
-    <section>
-        <p><img src="img\kosmetika big.jpg" alt="Косметика фото "></p>
-        <div class=" slider">
-            <button type="button"><img src="img\Layer 45.jpg" alt="Косметика фото 1"></button>
-            <button type="button"><img src="img\Layer 46.jpg" alt="Косметика фото 2"></button>
-            <button type="button"><img src="img\Layer 47.jpg" alt="Косметика фото 3"></button>
+    <section class="container_foto">
+        <div class="container_main_foto"><img src="img/Layer 47 copy.png" alt="Косметика фото "></div>
+        <div class="slider">
+            <button class="button_foto" type="button"><img src="img/Layer 45.png" alt="Косметика фото 1"></button>
+            <button class="button_foto" type="button"><img src="img/Layer 46.png" alt="Косметика фото 2"></button>
+            <button class="button_foto" type="button"><img src="img/Layer 47.png" alt="Косметика фото 3"></button>
         </div>
     </section>
     <div>
