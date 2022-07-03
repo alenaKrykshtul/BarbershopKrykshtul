@@ -466,6 +466,7 @@ input[type="radio"].visually_hidden {
 .footer_copyright .button {
 	display: block;
 	margin-right: 0;
+	
 }
 
 .footer_copyright .button:hover,
@@ -656,6 +657,6 @@ input[type="radio"].visually_hidden {
 	margin-top: -280px;
 	margin-left: -390px;
 	border: 7px solid white;
-/*	display: none;*/
-		/*выключен*/
+    display: none;
+		/*включен*/
 }
