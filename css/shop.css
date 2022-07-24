@@ -69,7 +69,7 @@ a {
 
 	display: block;
 	padding: 29px 10px;
-
+	
 }
 
 .site_navigation a:hover,
@@ -77,7 +77,10 @@ a {
 .user_navigation a:hover,
 .user_navigation a:focus {
 	background-color: #242424;
+		
 }
+
+
 
 .site_navigation {
 	display: flex;
@@ -85,6 +88,7 @@ a {
 	width: 680px;
 	margin: 0px;
 	padding: 0px;
+	
 
 
 }
@@ -95,6 +99,7 @@ a {
 	min-height: 73px;
 	display: flex;
 	max-width: 140px;
+	position: relative;
 
 }
 
@@ -232,6 +237,7 @@ legend {
 	border: 1px solid black;
 	top: 5px;
 	margin: 0 20px 0 0;
+	
 
 }
 
@@ -240,8 +246,6 @@ legend {
 	position: absolute;
 	top: 15px;
 	left: 7px;
-	
-
 	
 }
 /**цвет кнопки круг**/
