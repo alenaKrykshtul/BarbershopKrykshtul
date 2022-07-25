@@ -18,11 +18,11 @@
         <nav class="main_navigation">
             <div class="container">
                 <ul class="site_navigation">
-                    <li><a href="info.html">Информация</a></li>
-                    <li><a href="news.html">Новости</a></li>
+                    <li><a href="index.html">Информация</a></li>
+                    <li><a href="#">Новости</a></li>
                     <li><a href="price.html">Прайс-лист</a></li>
-                    <li><a href="catalog.html">Магазин</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="shop.html">Магазин</a></li>
+                    <li><a href="#">Контакты</a></li>
                 </ul>
                 <ul class="user_navigation">
                     <li>
@@ -81,7 +81,7 @@
                         <time datetime="2019-01-18">18 января</time>
                     </li>
                 </ul>
-                <a class="button" href="news.html">Все новости</a>
+                <a class="button" href="#">Все новости</a>
             </section>
             <section class="gallery ">
                 <h2>Фотогалерея</h2>
@@ -109,7 +109,7 @@
                     сб—вс: с 10:00 до 19:00
                 </p>
                 <a class="button" href="map.html">Как проехать</a>
-                <a class="button" href="contacts.html">Обратная связь</a>
+                <a class="button" href="#">Обратная связь</a>
             </section>
             <section class="appointment">
                 <h2>Записаться</h2>
@@ -145,7 +145,7 @@
         <div class="container">
             <p class="footer_contacts">Барбершоп "Бородинский" <br>
                 Адрес: г. Санкт-Петербург, б. Конюшенная, д. 19/8 <br>
-                <a href="maps.html">Как нас найти?</a><br>
+                <a class="login_map" href="maps.html">Как нас найти?</a><br>
                 телефон: +7 (495) 666-02-66
             </p>
             <div class="footer_social">
@@ -189,12 +189,13 @@
         <form class="login_form" action="https://echo.htmlacademy.ru" method="post">
             <p>
                 <label class="visually_hidden" for="user-login">Логин</label>
-                <input class="login_icon_user" id="user-login" type="text" name="login" placeholder="email@example.com">
+                <input class="login_icon_user" id="user-login" type="text" name="login" placeholder="email@example.com"
+                    required>
             </p>
             <p>
                 <label class="visually_hidden" for="user-password">Пароль</label>
                 <input class="login_icon_password" id="user-password" type="password" name="password"
-                    placeholder="........">
+                    placeholder="........" required>
             </p>
             <p class="login_help">
                 <label class="login_checkbox">
@@ -217,6 +218,7 @@
             <span class="visually_hidden">Закрыть</span></button>
 
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>

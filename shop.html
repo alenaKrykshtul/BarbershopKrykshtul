@@ -22,11 +22,11 @@
                         <a class="logo" href="index.html">
                         </a>
                     </li>
-                    <li><a href="info.html">Информация</a></li>
-                    <li><a href="news.html">Новости</a></li>
+                    <li><a href="#">Информация</a></li>
+                    <li><a href="index.html">Новости</a></li>
                     <li><a href="price.html">Прайс-лист</a></li>
-                    <li><a href="catalog.html">Магазин</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="shop.html">Магазин</a></li>
+                    <li><a href="#">Контакты</a></li>
                 </ul>
                 <ul class="user_navigation">
                     <li>
@@ -54,23 +54,35 @@
                 <fieldset>
                     <legend>Производители</legend>
                     <div class="square-item">
-                        <input type="checkbox" name="Baxter-of-California" id="filter-Baxter-of-California"
-                            checked><label class="checked" for="filter-Baxter-of-California">
+                        <input class="my_check" type="checkbox" name="Baxter-of-California"
+                            id="filter-Baxter-of-California"><span class="my_icon"></span><label class="lable"
+                            for="filter-Baxter-of-California">
                             Baxter of California</label>
                     </div>
-                    <div class="square-item"><input type="checkbox" name="Mr-Natty" id="filter-Mr-Natty"><label
-                            for="filter-Mr-Natty">
-                            Mr Natty</label></div>
-                    <div class="square-item"><input type="checkbox" name="Suavecit" id="filter-Suavecit" checked><label
-                            for="filter-Suavecit">
+                    <div class="square-item">
+                        <input class="my_check" type="checkbox" name="Mr-Natty" id="filter-Mr-Natty"><span
+                            class="my_icon"></span><label class="lable" for="filter-Mr-Natty">
+                            Mr Natty</label>
+                    </div>
+                    <div class="square-item">
+                        <input class="my_check" type="checkbox" name="Suavecit" id="filter-Suavecit"><span
+                            class="my_icon"></span><label class="lable" for="filter-Suavecit">
                             Suavecito</label>
                     </div>
-                    <div class="square-item"><input type="checkbox" name="Malin&plusmn;Goetz"
-                            id="filter-Malin&plusmn;Goetz"><label for="filter-Malin+Goetz">Malin+Goetz</label></div>
-                    <div class="square-item"><input type="checkbox" name="Murray&rsquo;s"
-                            id="filter-Murray&rsquo;s"><label for="filter-Murray&rsquo;s">Murray&rsquo;s</label></div>
-                    <div class="square-item"><input type="checkbox" name="American-Crew" id="filter-American Crew"
-                            checked><label for="filter-American Crew">American Crew</label></div>
+                    <div class="square-item">
+                        <input class="my_check" type="checkbox" name="Malin&plusmn;Goetz"
+                            id="filter-Malin&plusmn;Goetz"><span class="my_icon"></span><label class="lable"
+                            for="filter-Malin+Goetz">Malin+Goetz</label>
+                    </div>
+                    <div class="square-item">
+                        <input class="my_check" type="checkbox" name="Murray&rsquo;s" id="filter-Murray&rsquo;s"><span
+                            class="my_icon"></span><label class="lable"
+                            for="filter-Murray&rsquo;s">Murray&rsquo;s</label>
+                    </div>
+                    <div class="square-item">
+                        <input class="my_check" type="checkbox" name="American-Crew" id="filter-American Crew"><span
+                            class="my_icon"></span><label class="lable" for="filter-American Crew">American Crew</label>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>Группы товаров</legend>
@@ -86,7 +98,7 @@
                     </div>
                     <div class="radio-item">
                         <input type="radio" name="product-group" value="Accessories" id="filter-Accessories"><label
-                            for="filter-Accessories"><b>Аксессуары</b></label>
+                            for="filter-Accessories">Аксессуары</label>
                     </div>
                 </fieldset>
                 <button class="button_left button" type="submit">Показать</button>
@@ -100,7 +112,7 @@
                         <span class="pagination_block">
                             <p class="value">2 900 ₽</p>
                         </span>
-                        <button class="button_pay button" type="button">Купить</button>
+                        <button class="button_pay button" type="submit"><a href="item.html">Купить</a></button>
                     </div>
                 </article>
                 <article class="catalog">
@@ -208,7 +220,7 @@
             </p>
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

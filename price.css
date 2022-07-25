@@ -1,398 +1,365 @@
 body {
-	margin: 0;
-	padding: 0;
-	font-family: 'PT Sans Narrow', Arial, sans-serif;
-	font-size: 14px;
-	line-height: 24px;
-	font-weight: 700;
-	color: black;
-	text-transform: uppercase;
-	background-color: #f3f0ed;
-	background-image: url(../BarbershopKrykshtul/img/Layer\ bascground\ price.jpg);
-	background-position: top center;
-	background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  background-color: #f3f0ed;
+  background-image: url(../BarbershopKrykshtul/img/Layer\ bascground\ price.jpg);
+  background-position: top center;
+  background-repeat: repeat;
 }
 a {
-	color: #fff;
-	text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 /*header*/
 .main_header {
-	min-height: 73px;
-	margin-bottom: 60px;
-	
+  min-height: 73px;
+  margin-bottom: 60px;
 }
 .main_navigation {
-	font-size: 16px;
-	line-height: 24px;
-	background-color: black;
-	min-height: 73px;
-	
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 100%;
-	margin-bottom: 50px;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: black;
+  min-height: 73px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
 }
 .container {
-	width: 940px;
-	margin: 0 auto;
-	padding: 0;
+  width: 940px;
+  margin: 0 auto;
+  padding: 0;
 }
-
+.site_navigation li:nth-child(4) {
+  border-bottom: #fff solid 4px;
+}
 .main_navigation .container {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-
-	width: 111px;
-	height: 24px;
-	background-repeat: no-repeat;
-	background-position: center;	
-	background-image: url(../BarbershopKrykshtul/img/logo.svg);
-
+  width: 111px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../BarbershopKrykshtul/img/logo.svg);
 }
 
 .site_navigation,
 .user_navigation {
-	list-style: none;
+  list-style: none;
 }
 .site_navigation a,
 .user_navigation a {
-
-	display: block;
-	padding: 29px 10px;
-
+  display: block;
+  padding: 29px 10px;
 }
 
 .site_navigation a:hover,
 .site_navigation a:focus,
 .user_navigation a:hover,
 .user_navigation a:focus {
-	background-color: #242424;
+  background-color: #242424;
 }
 
 .site_navigation {
-	display: flex;
-	flex-wrap: wrap;
-	width: 680px;
-	margin: 0px;
-	padding: 0px;
-	
-
+  display: flex;
+  flex-wrap: wrap;
+  width: 680px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .user_navigation {
-	margin: 0px;
-	padding: 0px;
-	min-height: 73px;
-	display: flex;
-	max-width: 140px;
-	
+  margin: 0px;
+  padding: 0px;
+  min-height: 73px;
+  display: flex;
+  max-width: 140px;
 }
 
 .user_navigation .login_link {
-	position: relative;
-	padding-left: 50px;
+  position: relative;
+  padding-left: 50px;
 }
 
 .login_link::before {
-	content: "";
+  content: "";
 
-	position: absolute;
-	top: 31px;
-	left: 27px;
-	width: 16px;
-	height: 18px;
-	background-image: url("../BarbershopKrykshtul/img/login.svg");
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	opacity: 0.3;
-
+  position: absolute;
+  top: 31px;
+  left: 27px;
+  width: 16px;
+  height: 18px;
+  background-image: url("../BarbershopKrykshtul/img/login.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.3;
 }
 
 .login_link:hover::before,
 .login_link:focus::before,
 .login_link:active::before {
-	opacity: 1;
+  opacity: 1;
 }
-
+a:active {
+  color: #fff;
+}
 .container_price {
-	margin: 0 auto;
-	padding: 0;
-	width: 940px;
-	
+  margin: 0 auto;
+  padding: 0;
+  width: 940px;
 }
 
 .container_price h1 {
-	font-size: 30px;
-	line-height: 42px;
-	margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 42px;
+  margin-bottom: 20px;
 }
 .container_pagination {
-	display: flex;
-	width: 160px;
-	justify-content: space-between;
-	padding: 0;
-	margin: 0;
-	list-style: none;
-  
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .pagination {
-	color: black;	
+  color: black;
 }
 .pagination_set {
-	color: #aba9a7;
+  color: #aba9a7;
 }
 
 .pagination b::after {
-	content: "";
-	background-color: black;
-	width: 8px;
-	height: 8px;
-	position: absolute;
-	
-	margin: 16px;
-	margin-top: 8px;
-	transform: rotate(45deg);
-	
+  content: "";
+  background-color: black;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+
+  margin: 16px;
+  margin-top: 8px;
+  transform: rotate(45deg);
 }
 .top .content {
-	font-size: 48px;
-	line-height: 48px;
-	text-align: center;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
 
-	display: flex;
-	align-items: center;
-	margin-top: 55px;
-	margin-bottom: 65px;
+  display: flex;
+  align-items: center;
+  margin-top: 55px;
+  margin-bottom: 65px;
 }
-
 
 .content::before,
 .content::after {
-	content: "";
-	flex-grow: 1;
-	flex-shrink: 0;
+  content: "";
+  flex-grow: 1;
+  flex-shrink: 0;
 
-	width: 50px;
-	height: 2px;
+  width: 50px;
+  height: 2px;
 
-	background-color: #000;
+  background-color: #000;
 }
 .content::before {
-	margin-right: 25px;
+  margin-right: 25px;
 }
 .content::after {
-	margin-left: 25px;
+  margin-left: 25px;
 }
 .container_text {
-	display: flex;
-	width: 960px;
+  display: flex;
+  width: 960px;
 }
 .container {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
+
 .container_colums {
-	display: flex;
-	margin: 60px 0;
-	justify-content: space-between;
-	flex-wrap: wrap;
+  display: flex;
+  margin: 60px 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .container_colums h3 {
-	margin-top: 60px;
-	margin-bottom: 30px;
-	font-size: 20px;
-	line-height: 24px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 24px;
 }
-.container_colums >h3:first-child {
-	width: 460px;
-	margin-top: 0;
-	margin-right: 460px;
-	margin-right: calc(100%-460px);
+.container_colums > h3:first-child {
+  width: 460px;
+  margin-top: 0;
+  margin-right: 460px;
+  margin-right: calc(100%-460px);
 }
 .container_left *:first-child,
 .container_right *:first-child {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 .container_left,
-.container_right {		
-	width: 460px;
+.container_right {
+  width: 460px;
 }
 
 .list {
-	
-	list-style: none;
-	margin: 14px 0;
-	padding: 0;		
-	
+  list-style: none;
+  margin: 14px 0;
+  padding: 0;
 }
 
 .list li {
-    position: relative;
-    margin-bottom: 15px;
-	padding-left: 20px;
-	
-	
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 20px;
 }
 .list li::before {
-	content: "";
-	background-color: black;
-	width: 8px;
-	height: 8px;
-	position: absolute;
-	
-	margin-top: 8px;
-	margin-left: -20px;
-	transform: rotate(45deg);
-	
+  content: "";
+  background-color: black;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+
+  margin-top: 8px;
+  margin-left: -20px;
+  transform: rotate(45deg);
 }
 .custom_table_1 {
-	width: 100%;
+  width: 100%;
 }
 .custom_table_1 td {
-	width: 50%;
-	padding: 10px 15px;
-	border: 2px solid #000;
+  width: 50%;
+  padding: 10px 15px;
+  border: 2px solid #000;
 }
 .custom_table_1 td:last-child {
-	text-align: center;
+  text-align: center;
 }
 
 table {
-	width: 460px;
-	display: table;
-	border-collapse: collapse;	
+  width: 460px;
+  display: table;
+  border-collapse: collapse;
 }
-
-
-
-
-
 
 /*footer*/
 
-
-
 .main_footer {
-	
-	color: #fff;
-	background-image: url(../BarbershopKrykshtul/img/pattern_dark.png);
-	background-color: #232323;
-	background-position: 0 0;
-	background-repeat: no-repeat;
-	
-	
-	
+  color: #fff;
+  background-image: url(../BarbershopKrykshtul/img/pattern_dark.png);
+  background-color: #232323;
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 .footer_container {
-	width: 940px;
-	margin: 0 auto;
-	padding: 60px 0;
-	min-height: 160px;
+  width: 940px;
+  margin: 0 auto;
+  padding: 60px 0;
+  min-height: 160px;
 }
-.main_footer .footer_container{
-	display: flex;
+.main_footer .footer_container {
+  display: flex;
 }
 
 .footer_contacts a:hover,
 .footer_contacts a:focus {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .footer_contacts {
-	
-	width: 309px;
-	margin-right: 90px;
-	margin-top: 0;
-
-	
-	
+  width: 309px;
+  margin-right: 90px;
+  margin-top: 0;
 }
 .footer_social {
-	text-align: center;
-	width: 141px;
-	margin: 0;
-	
+  text-align: center;
+  width: 141px;
+  margin: 0;
 }
 .footer_social b {
-	display: block;
-	margin-bottom: 15px;
-
+  display: block;
+  margin-bottom: 15px;
 }
 
 .footer_social ul {
-	list-style: none;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	width: 141px;
-	margin: 0 auto;
-	padding: 0;
-
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 141px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .social_button {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 43px;
-	height: 43px;
-	background-color: #000;
-	margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+  background-color: #000;
+  margin-bottom: 10px;
 }
 
 .social_button:hover,
 .social_button:focus {
-	background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .social_button:hover path,
 .social_button:focus path {
-	fill: #000;
+  fill: #000;
 }
 
 .footer_copyright {
-	width: 140px;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	margin-left: auto;
-	min-height: 100px;
+  width: 140px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  min-height: 100px;
 }
 .footer_copyright b {
-	display: block;
-	margin-bottom: 15px;
+  display: block;
+  margin-bottom: 15px;
 }
 
 .footer_copyright .button {
+  margin: 0;
+  padding: 0 auto;
 
-	margin: 0;
-	padding: 0 auto;
-	
-	font: inherit;
-	text-align: center;
-	color: white;
+  font: inherit;
+  text-align: center;
+  color: white;
 
-	text-transform: uppercase;
-	background-color: #000000;
-	border: none;
-	display: block;
-	width: 140px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+  text-transform: uppercase;
+  background-color: #000000;
+  border: none;
+  display: block;
+  width: 140px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .footer_copyright .button:hover,
 .footer_copyright .button:focus {
-	color: #000000;
-	background-color: #ffffff;
+  color: #000000;
+  background-color: #ffffff;
 }
-
