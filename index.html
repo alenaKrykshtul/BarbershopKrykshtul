@@ -108,7 +108,7 @@
                     Время паботы: пн—пт: С 10:00 ДО 22:00 <br>
                     сб—вс: с 10:00 до 19:00
                 </p>
-                <a class="button" href="map.html">Как проехать</a>
+                <a class="button button_map" href="map.html">Как проехать</a>
                 <a class="button" href="#">Обратная связь</a>
             </section>
             <section class="appointment">
@@ -213,12 +213,17 @@
     </section>
     <section class="modal modal_map">
         <h2 class="visually_hidden">Как до нас добраться</h2>
-        <img src="img\map.jpg" width="766" height="560" alt="Адрес офиса компании"><br>
-        <button class="modal_close" type="button">
-            <span class="visually_hidden">Закрыть</span></button>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989054779363!2d30.32128831609696!3d59.938797481876236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310e354288bb%3A0xbbeecda9980bbc58!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE4LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2slt!4v1659292740372!5m2!1sru!2slt"
+            width="766" height="560" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <p><img src="img\map.jpg" width="766" height="560" alt="Адрес офиса компании"></p>
+        <button class="modal_close" type="button"></button>
 
     </section>
-    <script src="script.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/map.js"></script>
 </body>
 
 </html>
